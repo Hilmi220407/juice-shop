@@ -4,32 +4,21 @@ version: v1.25.1
 ignore:
   SNYK-JS-MARSDB-480405:
     - '*':
-        reason: Tidak ada versi fix tersedia; aplikasi hanya untuk latihan keamanan
-        expires: 2027-12-31T00:00:00.000Z
-        created: 2026-11-10T07:08:46.229Z
+        reason: >-
+          Belum ada versi perbaikan dari maintainer, dipakai hanya pada fitur
+          lab Juice Shop
+        expires: 2027-06-30T00:00:00.000Z
+        created: 2026-11-10T13:25:26.919Z
   SNYK-JS-DECOMPRESS-20254116:
     - '*':
-        reason: Tidak ada versi fix tersedia; aplikasi hanya untuk latihan keamanan
-        expires: 2027-12-31T00:00:00.000Z
-        created: 2026-11-10T07:08:50.628Z
-  SNYK-JS-DECOMPRESS-17874437:
-    - '*':
-        reason: alasan versimu sendiri
+        reason: >-
+          Tidak ada patch tersedia, risiko diterima sementara karena aplikasi
+          untuk latihan keamanan
         expires: 2027-06-30T00:00:00.000Z
-        created: 2026-11-10T09:44:48.158Z
-  SNYK-JS-DECOMPRESS-17937347:
-    - '*':
-        reason: ...
-        expires: 2027-06-30T00:00:00.000Z
-        created: 2026-11-10T09:44:54.399Z
+        created: 2026-11-10T13:25:33.416Z
   SNYK-JS-HTTPCACHESEMANTICS-19964064:
     - '*':
-        reason: ...
+        reason: 'Dependensi transitif tanpa versi aman, dampak rendah di lingkungan lab'
         expires: 2027-06-30T00:00:00.000Z
-        created: 2026-11-10T09:45:01.220Z
-  SNYK-JS-HTTPCACHESEMANTICS-19964068:
-    - '*':
-        reason: ...
-        expires: 2027-06-30T00:00:00.000Z
-        created: 2026-11-10T09:46:57.678Z
+        created: 2026-11-10T13:25:44.380Z
 patch: {}
